@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA", "DSA\DSA.csproj", "{DBCE7D11-37F5-4865-B058-89EC385E5234}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA.UnitTest", "DSA.UnitTest\DSA.UnitTest.csproj", "{973FB31D-6345-49C0-A7D6-3E0CA6349307}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B7720222-81BF-4D71-8126-981E2C40CF63}"
+	ProjectSection(SolutionItems) = preProject
+		DSA.vsmdi = DSA.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = DSA.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBCE7D11-37F5-4865-B058-89EC385E5234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBCE7D11-37F5-4865-B058-89EC385E5234}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBCE7D11-37F5-4865-B058-89EC385E5234}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBCE7D11-37F5-4865-B058-89EC385E5234}.Release|Any CPU.Build.0 = Release|Any CPU
+		{973FB31D-6345-49C0-A7D6-3E0CA6349307}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{973FB31D-6345-49C0-A7D6-3E0CA6349307}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{973FB31D-6345-49C0-A7D6-3E0CA6349307}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{973FB31D-6345-49C0-A7D6-3E0CA6349307}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
