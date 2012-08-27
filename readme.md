@@ -4,7 +4,7 @@
 * Based on the open source DSA e-book, http://dotnetslackers.com/projects/Data-Structures-And-Algorithms/
 
 ## Usage Example
-```chsarp
+```csharp
 public void RemoveFirstOfTwoTestHelper<T>() where T : new()
 {
   var target = new LinkedList<T>();
